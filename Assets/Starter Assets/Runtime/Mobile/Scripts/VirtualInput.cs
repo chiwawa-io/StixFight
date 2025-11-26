@@ -25,9 +25,4 @@ public class VirtualInput : MonoBehaviour
     {
         StarterAssetsInputs.SprintInput(virtualSprintState);
     }
-
-    public void VirtualPunchInput(bool virtualPunchState)
-    {
-        StarterAssetsInputs.PunchInput(virtualPunchState);
-    }
 }
